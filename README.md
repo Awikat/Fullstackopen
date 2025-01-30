@@ -1,4 +1,4 @@
-Here’s an example **README.md** file for the tasks and processes you’ve worked on, including the creation of the diagrams and the steps you followed.
+Here’s an example **README.md** file for the tasks and processes I’ve worked on, including the creation of the diagrams and the steps I followed.
 
 ```markdown
 # Project: Notes App (SPA and Traditional Version)
