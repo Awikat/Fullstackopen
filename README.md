@@ -1,14 +1,14 @@
 Here’s an example **README.md** file for the tasks and processes I’ve worked on, including the creation of the diagrams and the steps I followed.
 
-```markdown
+
 # Project: Notes App (SPA and Traditional Version)
 
 This repository contains the work done for creating diagrams for the **Notes App**, both in its traditional and single-page app (SPA) versions. The task involves demonstrating the sequence of events that occur when creating a new note, using Mermaid syntax for visualization in Markdown files.
 
-## Tasks Completed
+##Tasks Completed
 
 ### **0.4: New Note Diagram (Traditional Version)**
-In this task, we created a sequence diagram showing the process of opening the page `https://studies.cs.helsinki.fi/exampleapp/notes` and creating a new note. The flow follows these steps:
+In this task, I created a sequence diagram showing the process of opening the page `https://studies.cs.helsinki.fi/exampleapp/notes` and creating a new note. The flow follows these steps:
 1. The browser sends a `GET` request for the main HTML, CSS, and JavaScript files.
 2. The browser starts executing the JavaScript code, which fetches JSON data from the server.
 3. The user writes a new note and clicks the "Save" button, triggering a `POST` request to the server with the new note data.
@@ -100,12 +100,12 @@ sequenceDiagram
 ## Process Followed
 
 ### 1. Understanding the Requirements
-We first reviewed the task requirements and understood the flow of events that occur when interacting with the **Notes App**. This included:
+I first reviewed the task requirements and understood the flow of events that occur when interacting with the **Notes App**. This included:
 - Opening the app in both the traditional and SPA versions.
 - Adding a new note to the app and how it interacts with the server.
 
 ### 2. Diagram Creation with Mermaid Syntax
-The task required us to visualize the sequence of events using **Mermaid syntax** in a Markdown file (`.md`). We created sequence diagrams that represent the communication between the **browser** and the **server** for various actions like:
+The task required me to visualize the sequence of events using **Mermaid syntax** in a Markdown file (`.md`). I created sequence diagrams that represent the communication between the **browser** and the **server** for various actions like:
 - Fetching data when the app is loaded.
 - Creating a new note and updating the UI dynamically.
 
@@ -119,8 +119,8 @@ All necessary files, including the Markdown files for the diagrams, are stored i
 - `spa_new_note.md`: Contains the Mermaid diagram for the new note creation process in the SPA version of the app.
 - `spa_note_creation.md`: Contains the Mermaid diagram for the note creation process in the traditional version of the app.
 
-## How to View Diagrams
-1. Clone or download the repository.
+## How to View Diagrams (https://github.com/Awikat/Fullstackopen.git)
+1. Clone or download the repository. 
 2. Open any `.md` file in GitHub or a Markdown viewer to see the rendered diagrams.
 
 ```sh
